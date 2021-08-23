@@ -1,0 +1,29 @@
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+
+.footer {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   padding: 15px 25px;
+   background: #FFFFFF;
+   box-shadow: -5px -5px 8px #eee;
+   border-radius: 5px 0 0 5px;
+}
+
+.footer a {
+   font-weight: bolder;
+   text-decoration: none;
+}
+
+nav.bg-success {
+   background-image: linear-gradient(to right, #28a745, #49b23f, #66bd38, #81c830, #9cd226);
+}
+
+#root .bg-light {
+   background-image: linear-gradient(to right bottom, #f8f9fa, #f2f7fb, #ecf4fc, #e7f2fd, #e1effe);
+}
